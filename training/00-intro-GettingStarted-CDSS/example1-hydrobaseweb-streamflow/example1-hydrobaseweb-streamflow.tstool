@@ -1,0 +1,5 @@
+# Example command file to query hourly average streamflow from HydroBase web services.
+# PLABALCO (0103200) - SOUTH PLATTE RIVER AT COOPER BRIDGE NEAR BALZAC
+abbrev:PLABALCO.DWR.DISCHRG.Hour~HydroBaseWeb
+# PLAMORCO (0103201) - SOUTH PLATTE RIVER AT FORT MORGAN, CO
+abbrev:PLAMORCO.USGS.DISCHRG.Hour~HydroBaseWeb

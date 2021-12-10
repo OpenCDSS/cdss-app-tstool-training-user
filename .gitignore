@@ -1,0 +1,25 @@
+# Ignore the following files (do not commit working files to repository)
+
+# Ignore temporary files from editors
+# vi/vim
+*.swp
+*.swo
+
+# Log files from command files.
+
+*.log
+
+# Junk files used when working on the repository.
+*junk*
+
+# Office temporary files
+
+*.tmp
+
+# Word
+#~$*.doc*
+# Excel
+#~$*.xls*
+# PowerPoint
+#~$*.ppt*
+~$*
