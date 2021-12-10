@@ -5,16 +5,20 @@ This script can be read when creating the video for this training presenttion.
 ## Title
 
 1. Welcome to the training for TSTool software: "Getting Started".
-2. This is an introductory level lesson that is expected to take about 30 minutes.
-3. The TSTool software can be run parallel to this presentation.
-4. Pause and reposition the presentation as necessary to absorb the information.
+2. TSTool software is a part of Colorado's Decision Support Systems,
+which is funded by the Colorado Water Conservation Board or CWCB.
+3. This is an introductory level lesson that is expected to take about 30 minutes.
+4. The TSTool software can be run parallel to this presentation.
+5. Pause and reposition the presentation as necessary to absorb the information.
 
 ## Presentation Goals
 
+Presentation goals are to...
 1. Read the slide.
 
 ## TSTool Fetaure Summary
 
+TSTool provides features to...
 1. Read the slide
 
 ## Example of browsing, reading, and visualizing data
@@ -29,6 +33,7 @@ This script can be read when creating the video for this training presenttion.
 
 ## TSTool Role in CDSS
 
+TSTool is used used in CDSS as follows.  It...
 1. Read the slide
 
 ## Installation and Configuration
@@ -37,6 +42,7 @@ This script can be read when creating the video for this training presenttion.
 
 ## Download the TSTool Installer
 
+Download the TSTool installer from...
 1. Read the slide
 
 ## Install TSTool
@@ -45,6 +51,7 @@ This script can be read when creating the video for this training presenttion.
 
 ## Run TSTool
 
+To run TSTool...
 1. Read the slide
 
 ## TSTool Log File
@@ -63,12 +70,13 @@ This script can be read when creating the video for this training presenttion.
 
 1. Read the slide
 
-## Enable HydroBase Dataase DataStore
+## Enable HydroBase Database DataStore
 
 1. Read the slide
 
 ## Disabling HydroBase Database Features
 
+HydroBase database features can be disabled if HydroBase is not available.
 1. Read the slide
 
 ## HydroBase Web Service Datastore
@@ -77,7 +85,8 @@ This script can be read when creating the video for this training presenttion.
 
 ## After starting TSTool
 
-1. At startup and depending on the configuration, TSTool may prompt for a HydroBase database.
+1. After TSTool is started,
+a prompt will be shown if HydroBase features are enabled.
 2. The HydroBase selector will not be shown if HydroBase features have been disabled.
 
 ## Listing real-time streamflow station time series
@@ -137,7 +146,7 @@ they can optionally be shown next to data values.
 
 1. Read the slide.
 
-## TSIDs and Time Series Alais
+## TSIDs and Time Series Alias
 
 1. Read the slide.
 
