@@ -23,11 +23,12 @@ The presentation goals are to...
 
 ## Command Files are Workflows to Support Decisions
 
-1. A command workflow is saved as a text file with a list of commands.
-2. These commands are read by TSTool and are run to process data.
-3. The TSTool Command Processor maintains a list of time series, tables, datastores, and other data.
-4. The unique identifiers for these objects allow TSTool to retrieve data for commands and save results.
-5. The results are output as useful information products including files, visualizations, and databases.
+1. Command files are workflows to support decisions.
+2. A command workflow is saved as a text file with a list of commands.
+3. These commands are read by TSTool and are run to process data.
+4. The TSTool Command Processor maintains a list of time series, tables, datastores, and other data.
+5. The unique identifiers for these objects allow TSTool to retrieve data for commands and save results.
+6. The results are output as useful information products including files, visualizations, and databases.
 
 ## Opening and Running an Existing Command File
 
@@ -35,9 +36,7 @@ The presentation goals are to...
 
 ## `example1`: Open an Existing Command File
 
-To open an existing command file...
-
-1. Use the ***File / Open / Command File...*** menu.
+1. For example...
 2. Read the slide
 
 ## Explain Opened Command File
@@ -85,7 +84,7 @@ After a command file is opened...
 
 ## Edit an Existing Slide
 
-1. To edit an existing slide...
+1. To edit an existing command...
 2. Read the slide
 
 ## Copy / Paste / Delete Commands

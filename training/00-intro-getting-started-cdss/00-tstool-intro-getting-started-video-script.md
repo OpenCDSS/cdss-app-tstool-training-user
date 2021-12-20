@@ -6,19 +6,21 @@ This script can be read when creating the video for this training presenttion.
 
 1. Welcome to the training for TSTool software: "Getting Started".
 2. TSTool software is a part of Colorado's Decision Support Systems,
-which is funded by the Colorado Water Conservation Board or CWCB.
-3. This is an introductory level lesson that is expected to take about 30 minutes.
+which is funded by the Colorado Water Conservation Board (CWCB).
+3. This is an introductory level training lesson that is expected to take about 30 minutes.
 4. The TSTool software can be run parallel to this presentation.
 5. Pause and reposition the presentation as necessary to absorb the information.
 
 ## Presentation Goals
 
-Presentation goals are to...
+The presentation goals are to...
+
 1. Read the slide.
 
-## TSTool Fetaure Summary
+## TSTool Feature Summary
 
 TSTool provides features to...
+
 1. Read the slide
 
 ## Example of browsing, reading, and visualizing data
@@ -30,10 +32,12 @@ TSTool provides features to...
 5. The time series list, or "catalog" provides standard time series metadata such as identifiers, interval, and units, and optional data depending on the data source.
 6. The middle part of the interface shows the command list, which can be edited with ***Commands*** menu and right-click popup menu.
 7. The bottom part of the interface shows results from running the commands, with results organized into tabs.  Right-click on results to show viewing tools, such as graph views.
+8. Popup tooltips are shown when mousing over the interface and context-sensitive menus are shown when right-clicking on a view component.
 
 ## TSTool Role in CDSS
 
-TSTool is used used in CDSS as follows.  It...
+TSTool is used used in CDSS as follows.  It is used to...
+
 1. Read the slide
 
 ## Installation and Configuration
@@ -43,6 +47,7 @@ TSTool is used used in CDSS as follows.  It...
 ## Download the TSTool Installer
 
 Download the TSTool installer from...
+
 1. Read the slide
 
 ## Install TSTool
@@ -52,6 +57,7 @@ Download the TSTool installer from...
 ## Run TSTool
 
 To run TSTool...
+
 1. Read the slide
 
 ## TSTool Log File
@@ -86,7 +92,7 @@ HydroBase database features can be disabled if HydroBase is not available.
 ## After starting TSTool
 
 1. After TSTool is started,
-a prompt will be shown if HydroBase features are enabled.
+if HydroBase features are enabled, a prompt will be shown to select a HydroBase database.
 2. The HydroBase selector will not be shown if HydroBase features have been disabled.
 
 ## Listing real-time streamflow station time series
@@ -104,8 +110,9 @@ This step only queries time series metadata, not the data values, and is usually
 ## Graph time series
 
 1. Once time series in the list are selected,
-use the ***Copy Selected to Commands*** to copy the time series identifiers to the command list.
-2. This will result in a preliminary, or "discovery" read of the time series, in order to have data used when editing commands.
+use the ***Copy Selected to Commands*** button to copy the time series identifiers to the command list.
+2. This will result in a preliminary, or "discovery" read of the time series,
+in order to retrieve metadata used when editing commands.
 3. Comments are lines that start with the hash character.
 4. Use the ***Run all Commands*** button to run the commands,
 which will generate results in the ***Time Series*** tab.
@@ -126,11 +133,11 @@ left axis properties, and color and symbol used to draw time series.
 
 ## Time Series Table
 
-1. Use the popup menu to view a table,
-or use the Table button on the bottom of the ***Graph*** window.
-2. The table shows each time series in a table.
-3. Use click, shift-click, and ctrl-click to select cells,
-similar to Excel.
+1. Use the **Time Series Results*** popup menu to view a table,
+or use the ***Table*** button on the bottom of the ***Graph*** window.
+2. The table shows each time series as a column in a table.
+3. Use ***click***, ***shift-click***, and ***ctrl-click*** to select cells,
+similar to Excel and ***right-click*** to show a menu with choices to copy, save, and show statistics.
 4. If multiple time series with different data intervals are displayed,
 multiple tables will be shown.
 5. Missing data values are shown as blanks.
@@ -139,7 +146,8 @@ they can optionally be shown next to data values.
 
 ## Time Series Summary
 
-1. The time series summary is available from the results popup menu and ***Summary*** button on graph and table window.
+1. The time series summary is available using a ***right-click*** in the results
+and ***Summary*** button on graph and table windows.
 2. The summary shows a text report of the time series using a default format.
 
 ## Time Series Identifier (TSID)
