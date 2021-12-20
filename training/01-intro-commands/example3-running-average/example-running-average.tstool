@@ -1,0 +1,20 @@
+StartLog(LogFile="example-running-average.tstool.log",MaxSize="1000000")
+# Simple command file to compute a running average:
+# - read a daily streamflow time series from HydroBaseWeb datastore
+# - create a new running average time series
+# - also demonstrate best practices
+#
+# Read the daily streamflow time series:
+# - must set a period because HydroBase web services defaults to short period
+# - note that even though HydroBase shows a starting date of 1986-02-19, many values are missing
+SetInputPeriod(InputStart="1986-01-01",InputEnd="CurrentToDay")
+ReadTimeSeries(TSID="abbrev:ROAGLECO.USGS.DISCHRG.Day~HydroBaseWeb",Alias="RoaringFork-day",IfNotFound=Warn)
+#
+# Create a running average time series that averages 5 years of each day's data.
+RunningStatisticTimeSeries(TSList=AllMatchingTSID,TSID="RoaringFork-day",Statistic=Mean,SampleMethod=NYear,Bracket=5,AllowMissingCount=1,Alias="RoaringFork-5YearMean-day")
+#
+# Check results and output to an Excel file:
+# - input data has missing values
+# - output also has missing values due to missing input
+CheckTimeSeries(TSList=AllMatchingTSID,TSID="RoaringFork-day",CheckCriteria="Missing")
+WriteDelimitedFile(OutputFile="example-running-average.csv")

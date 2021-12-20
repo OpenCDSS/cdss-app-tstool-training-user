@@ -1,0 +1,12 @@
+# Simple command file to read a HydroBaseWeb time series.
+# Read one daily time series using three different approaches.
+# Purposefully introduce an error in the station identifier to illustrate error-handling.
+#
+# First, read using a time series identifier (TSID) copied from the time series list.
+# ROAGLECO (3802069) - ROARING FORK RIVER AT GLENWOOD SPRINGS, CO.
+abbrev:xROAGLECO.USGS.DISCHRG.Day~HydroBaseWeb
+# Second, copy the above command, right click on the command, and
+# "Convert TSID commmand to General ReadTimeSeries command".
+ReadTimeSeries(TSID="abbrev:ROAGLECO.USGS.DISCHRG.Day~HydroBaseWeb",Alias="RoaringFork-day-2",IfNotFound=Warn)
+# Third, use the ReadColoradoHydroBaseRest command found in the Commands / Read Time Series menu.
+ReadColoradoHydroBaseRest(DataStore="HydroBaseWeb",TSID="ROAGLECO.USGS.DISCHRG.Day~HydroBaseWeb",Alias="RoaringFork-day-3")
