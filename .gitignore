@@ -6,8 +6,11 @@
 *.swo
 
 # Log files from command files.
-
 *.log
+
+# Video files corresponding to presentations that are too large to maintain in the repository.
+# - for example, copied from the user's Documents folder when converted from GoToMeeting recordings
+*.mp4
 
 # Junk files used when working on the repository.
 *junk*
